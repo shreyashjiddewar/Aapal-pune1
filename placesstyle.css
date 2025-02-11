@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:  #f0f0f0;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.landmark-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.landmark-card:hover {
+    transform: scale(1.05); 
+}
+
+.landmark-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.landmark-card h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.landmark-card p {
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+.button-link {
+    display: block;
+    padding: 10px 20px;
+    margin: 30px auto;
+    background-color:#8951f2;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80px;
+    font-size: 13px;
+  }
+
+  .button-link:hover {
+    background-color: #632ec6;
+  }
+
+

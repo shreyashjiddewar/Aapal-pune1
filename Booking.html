@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Booking</title>
+    <link rel="stylesheet" href="stylebooking.css">
+</head>
+<body>
+
+    
+
+
+
+
+    <div class="container">
+        <h1>Cafe Booking</h1>
+
+        <form id="booking-form">
+            <div class="form-group">
+                <label for="cafe-name">Select Cafe:</label>
+                <select id="cafe-name" name="cafe-name">
+                    <option value="">Select Cafe</option>
+                    <option value="Cafe A">Cafe Kath</option>
+                    <option value="Cafe B">Cafe Buddy's Espresso</option>
+                    <option value="Cafe C">Camp Burger</option>
+                    <option value="Cafe C">Crazy Cheesy</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="persons">Number of Persons:</label>
+                <input type="number" id="persons" name="persons" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="persons">Contact Number:</label>
+                <input type="number" id="persons" name="persons" min="1" required>
+            </div>
+
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <div id="booking-confirmation">
+            <h2>Booking Confirmation</h2>
+            <p>Your booking request has been submitted.</p>
+            <p>We will contact you shortly to confirm your reservation.</p>
+        </div>
+
+    </div>
+
+    <script src="script booking.js"></script>
+</body>
+</html>
