@@ -145,7 +145,7 @@ const apiKey = "AIzaSyCb0s1Fvz0CwDj1-t9_Fe2AV1iFfLdcH44"; // Replace with your a
 
 async function getAIResponse(query) {
   try {
-    const response = await fetch(`https://language.googleapis.com/v1/documents:analyzeSentiment?key=${AIzaSyCb0s1Fvz0CwDj1-t9_Fe2AV1iFfLdcH44}`, {
+    const response = await fetch(`https://language.googleapis.com/v1/documents:analyzeSentiment?key=${" "}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
